@@ -2,6 +2,9 @@
 
 ### Ceci est le projet développé dans le cadre l'UE Programmation et Conception.
 
+
+![In Game screenshot](https://github.com/JohnKondo/Gated-Adventure/blob/main/Screenshot_Gated_Adventure.png)
+
 Le but de ce projet est de programmer un jeu de donjon. En suivant les contraintes suivantes :
 
 ▶ Application des principes SOLID
