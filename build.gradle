@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+plugins {
+    id 'application'
+    id "org.openjfx.javafxplugin" version "0.0.8"
+}
+
+javafx {
+    version = "11"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = "11"
+targetCompatibility = "11"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+mainClassName = "com.gatedInc.game.App"
+
+
+test {
+    useJUnitPlatform()
+}
